@@ -1,0 +1,52 @@
+a {
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    color: blue;
+}
+
+.column {
+    display: inline-block;
+    margin: 10px;
+    width: 360px;
+    border: 1px solid gray;
+}
+
+.product-title {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+}
+
+#title-background {
+    background-image: url(./resources/images/pattern.jpeg);
+    background-size: cover;
+}
+
+#title {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 100px;
+    font-weight: bold;
+    font-style: italic;
+    color: khaki;
+    text-align: center;
+    border-top: 100px solid khaki;
+    border-bottom: 100px solid khaki;
+}
+
+#main-section {
+    display: block;
+    width: 80%;
+}
+
+#green-background {
+    background-color: mediumspringgreen;
+}
+
+#coral-background {
+    background-color: lightcoral;
+}
+
+#skyblue-background {
+    background-color: skyblue;
+}
