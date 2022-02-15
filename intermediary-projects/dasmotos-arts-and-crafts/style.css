@@ -1,3 +1,14 @@
+nav {
+    background-color: aquamarine;   
+}
+
+nav li {
+    display: inline-block;
+    font-size: 24px;
+    padding: 20px;
+    margin: 0px 20px;
+}
+
 a {
     font-family: Helvetica, Arial, sans-serif;
     font-weight: bold;
@@ -9,6 +20,12 @@ a {
     margin: 10px;
     width: 360px;
     border: 1px solid gray;
+    text-align: center;
+}
+
+.column p {
+    text-align: justify;
+    padding: 0px 10px;
 }
 
 .product-title {
@@ -30,13 +47,15 @@ a {
     font-style: italic;
     color: khaki;
     text-align: center;
-    border-top: 100px solid khaki;
-    border-bottom: 100px solid khaki;
+    margin: 0px;
+    border-top: 80px solid khaki;
+    border-bottom: 80px solid khaki;
 }
 
 #main-section {
     display: block;
-    width: 80%;
+    background-image: url(./resources/images/website-background.jpeg);
+    background-size: cover;
 }
 
 #green-background {
