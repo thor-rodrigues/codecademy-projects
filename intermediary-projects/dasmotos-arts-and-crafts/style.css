@@ -55,19 +55,18 @@ li {
     width: 98%;
     border-radius: 15px;
     margin: 10px auto;
+    /* background: url(./resources/images/pattern.jpeg); */
+    /* For better background, use line below and delete the one above*/
     background-color: #F4A261;
 }
 
 .title {
     font-size: 108px;
-    color: khaki;
-    /*  Gradient Title
-
-    background: -webkit-linear-gradient (#3f5efb, #46fc9e);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    */
+    color: aqua;
 }
+
+
+/* Section */
 
 .section {
     display: flex;
@@ -87,6 +86,14 @@ li {
     border-radius: 15px;
     background-color: #2A9D8F;
 }
+
+.column_subtitle {
+    font-size: 48px;
+    text-align: center;
+}
+
+
+/* Footer */
 
 .footer {
     height: 250px;
