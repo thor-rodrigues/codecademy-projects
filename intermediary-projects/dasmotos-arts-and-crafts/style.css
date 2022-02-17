@@ -1,96 +1,48 @@
 h1,
 h2,
+h3,
 p,
-li,
-a,
-button {
-    font-family: Helvetica, Arial, sans-serif;
+li {
+    font-family: Helvetica, Arial, Helvetica, sans-serif;
 }
 
-nav {
-    background-color: aquamarine;
-}
 
-nav li {
-    display: inline-block;
-    font-size: 24px;
-    margin: 0px 20px;
-}
-
-nav li:hover {
-    border-bottom: 3px solid goldenrod;
-}
-
-a {
-    font-weight: bold;
-    color: blue;
-}
+/* Navbar */
 
 .nav_bar {
-    position: absolute;
-    right: 0px;
+    height: 80px;
+    width: 98%;
+    margin: 0 auto;
+    background-color: #E76F51;
 }
 
-.nav_button {
-    text-align: right;
-    font-size: 18px;
-    padding: 10px;
-    border: 2px solid green;
-    border-radius: 10px;
-    margin: 10px;
-    background-color: yellow;
+.header {
+    height: 500px;
+    width: 98%;
+    margin: 10px auto;
+    background-color: #F4A261;
+}
+
+.section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 800px;
+    width: 98%;
+    margin: 10px auto;
+    background-color: #E9C46A;
 }
 
 .column {
     display: inline-block;
-    margin: 10px;
-    width: 360px;
-    border: 1px solid gray;
-    text-align: center;
+    height: 700px;
+    width: 550px;
+    background-color: #2A9D8F;
+}
+
+.footer {
+    height: 250px;
+    width: 98%;
     margin: 0 auto;
-}
-
-.column p {
-    text-align: justify;
-    padding: 0px 10px;
-}
-
-.product-title {
-    font-size: 32px;
-    font-weight: bold;
-    color: white;
-}
-
-#title-background {
-    background-image: url(./resources/images/pattern.jpeg);
-    background-size: cover;
-}
-
-#title {
-    font-size: 100px;
-    font-weight: bold;
-    font-style: italic;
-    color: khaki;
-    text-align: center;
-    margin: 0px;
-    border-top: 60px solid khaki;
-    border-bottom: 40px solid khaki;
-}
-
-#main-section {
-    display: block;
-    background-image: url(./resources/images/website-background.jpeg);
-    background-size: cover;
-}
-
-#green-background {
-    background-color: mediumspringgreen;
-}
-
-#coral-background {
-    background-color: lightcoral;
-}
-
-#skyblue-background {
-    background-color: skyblue;
+    background-color: #264653;
 }
