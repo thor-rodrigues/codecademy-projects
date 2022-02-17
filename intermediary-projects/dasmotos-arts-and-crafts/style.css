@@ -7,6 +7,13 @@ li {
 }
 
 
+/* Styling */
+
+.bold {
+    font-weight: bold;
+}
+
+
 /* Navbar */
 
 .nav_bar {
@@ -14,11 +21,35 @@ li {
     width: 98%;
     margin: 0 auto;
     background-color: #E76F51;
+    border-radius: 15px;
 }
+
+.nav_bar_list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav_bar_list_element {
+    display: inline;
+    font-size: 25px;
+    padding: 15px 25px;
+    margin-top: 10px;
+}
+
+.nav_bar_list_element:hover {
+    color: gold;
+    border-bottom: 2px solid gold;
+    cursor: pointer;
+}
+
+
+/* Header */
 
 .header {
     height: 500px;
     width: 98%;
+    border-radius: 15px;
     margin: 10px auto;
     background-color: #F4A261;
 }
@@ -29,6 +60,7 @@ li {
     justify-content: space-around;
     height: 800px;
     width: 98%;
+    border-radius: 15px;
     margin: 10px auto;
     background-color: #E9C46A;
 }
@@ -37,12 +69,14 @@ li {
     display: inline-block;
     height: 700px;
     width: 550px;
+    border-radius: 15px;
     background-color: #2A9D8F;
 }
 
 .footer {
     height: 250px;
     width: 98%;
+    border-radius: 15px;
     margin: 0 auto;
     background-color: #264653;
 }
