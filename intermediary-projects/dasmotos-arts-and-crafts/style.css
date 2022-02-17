@@ -28,6 +28,7 @@ li {
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    margin-right: 10px;
 }
 
 .nav_bar_list_element {
@@ -47,11 +48,25 @@ li {
 /* Header */
 
 .header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 500px;
     width: 98%;
     border-radius: 15px;
     margin: 10px auto;
     background-color: #F4A261;
+}
+
+.title {
+    font-size: 108px;
+    color: khaki;
+    /*  Gradient Title
+
+    background: -webkit-linear-gradient (#3f5efb, #46fc9e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    */
 }
 
 .section {
