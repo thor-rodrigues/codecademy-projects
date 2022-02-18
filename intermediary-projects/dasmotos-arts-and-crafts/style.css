@@ -2,7 +2,7 @@ h1,
 h2,
 h3,
 p,
-li {
+li a {
     font-family: Helvetica, Arial, Helvetica, sans-serif;
 }
 
@@ -82,14 +82,46 @@ li {
 .column {
     display: inline-block;
     height: 700px;
-    width: 550px;
+    width: 450px;
     border-radius: 15px;
-    background-color: #2A9D8F;
 }
 
 .column_subtitle {
     font-size: 48px;
     text-align: center;
+}
+
+.product_image {
+    display: block;
+    margin: 0 auto;
+    width: 70%;
+    border-radius: 15px;
+}
+
+.column_h3 {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.column_paragraph {
+    text-align: justify;
+    margin: 10px 40px;
+}
+
+.column_paragraph a {
+    color: blue;
+}
+
+#column_1 {
+    background-color: mediumspringgreen;
+}
+
+#column_2 {
+    background-color: lightcoral;
+}
+
+#column_3 {
+    background-color: skyblue;
 }
 
 
@@ -100,5 +132,5 @@ li {
     width: 98%;
     border-radius: 15px;
     margin: 0 auto;
-    background-color: #264653;
+    background-color: #2A9D8F;
 }
